@@ -1,0 +1,11 @@
+Let magicBall = [
+    'beyond yes',
+   'yes',
+    'no',
+    'maybe',
+    'ask again',
+    'never say ever'
+];
+Function askMagicBall(magicBall){
+    return [Math.floor(Math.random()*magicBall.length)];
+}
