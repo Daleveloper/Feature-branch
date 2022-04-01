@@ -4,7 +4,9 @@ Let magicBall = [
     'no',
     'maybe',
     'ask again',
-    'never say ever'
+    'never say ever',
+    'seems to be in the stars',
+    'ask your dad'
 ];
 Function askMagicBall(magicBall){
     return [Math.floor(Math.random()*magicBall.length)];
